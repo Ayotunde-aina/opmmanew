@@ -1,0 +1,198 @@
+body {
+  position: relative;
+  background: linear-gradient(to left, green, white);
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  position: fixed;
+  width: 100%;
+  padding: 1px;
+  box-sizing: border-box;
+  top: 0%;
+  left: 0%;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  list-style: none;
+}
+.opmma {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #000000;
+  background: linear-gradient(to right, green, white);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.mma {
+  font-size: large;
+  background-color: green;
+  color: white;
+  animation: myslide;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-delay: 0s;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+}
+@keyframes myslide {
+  from {
+    transform: translateX(110%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+h1:hover {
+  box-shadow: 5px 5px 5px blue;
+}
+h2:hover {
+  box-shadow: 5px 5px 5px blue;
+}
+h3:hover {
+  box-shadow: 5px 5px 5px blue;
+}
+
+.button {
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: yellowgreen;
+}
+button:hover {
+  color: green;
+}
+.construction {
+  justify-items: center;
+  font-size: xx-large;
+  background-color: aqua;
+  position: static;
+  width: 100%;
+}
+.js {
+  border-style: outset;
+  border-width: 6px;
+  border-color: green;
+  border-radius: 7px;
+  padding: 14px;
+}
+.hh {
+  border-style: outset;
+  border-width: 7px;
+  border-color: green;
+  border-radius: 7px;
+  padding: 14px;
+}
+.ss {
+  border-style: outset;
+  border-width: 7px;
+  border-color: green;
+  border-radius: 7px;
+  padding: 14px;
+}
+.tt {
+  border-style: outset;
+  border-width: 4px;
+  border-color: green;
+  border-radius: 7px;
+  padding: 14px;
+}
+.jj {
+  border-style: outset;
+  border-width: 4px;
+  border-color: green;
+  border-radius: 7px;
+  padding: 14px;
+}
+.mm {
+  border-style: outset;
+  border-width: 7px;
+  border-color: green;
+  border-radius: 7px;
+  padding: 14px;
+}
+.family {
+  justify-items: center;
+  font-size: xx-large;
+}
+.opp {
+  justify-items: center;
+}
+.prof {
+  font-size: xx-large;
+}
+.buttons {
+  padding: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: greenyellow;
+}
+.service {
+  justify-items: center;
+  text-decoration: underline;
+  font-size: large;
+}
+.our {
+  justify-items: center;
+}
+.img {
+  display: flex;
+  justify-content: start;
+  background-image: url(src/retaining-wall-123.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: myimagechange;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+  animation-duration: 20s;
+}
+@keyframes myimagechange {
+  20% {
+    background-image: url(src/interlocking\ 5.jpeg);
+  }
+  40% {
+    background-image: url(src/3333.jpg);
+  }
+  60% {
+    background-image: url(src/4444.jpeg);
+  }
+  80% {
+    background-image: url(src/5555.jpeg);
+  }
+  100% {
+    background-image: url(src/6666.jpg);
+  }
+}
+.ventures {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: larger;
+  gap: 10px;
+}
+.more {
+  display: flex;
+  justify-content: space-around;
+}
+.read {
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: greenyellow;
+}
+.conta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-color: black;
+  color: aliceblue;
+}
